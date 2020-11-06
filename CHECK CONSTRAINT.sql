@@ -1,0 +1,3 @@
+ALTER TABLE Payment ADD CHECK (Amount = 2.50)
+
+INSERT INTO Payment values (1234, 4, 5000, 2.00, 22222222222)
